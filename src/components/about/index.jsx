@@ -1,6 +1,7 @@
 import React from "react";
 import ItemLayout from "./ItemLayout";
 import Link from "next/link";
+import dotenv from "dotenv";
 
 const AboutDetails = () => {
   return (
@@ -17,7 +18,7 @@ const AboutDetails = () => {
           <p className="font-light  text-xs sm:text-sm md:text-base   ">
             My journey in web development is powered by an array of mystical
             tools and languages, with JavaScript casting the core of my
-            enchantments. I wield frameworks like React.js and Next.js with
+            enchantments. I wield  like Mern and Blockchain and Solidity with
             precision, crafting seamless portals (websites) that connect realms
             (users) across the digital universe. The ancient arts of the
             Jamstack empower me to create fast, secure, and dynamic experiences,
@@ -31,7 +32,7 @@ const AboutDetails = () => {
           className={" col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            25+ <sub className="font-semibold text-base">clients</sub>
+            4+ <sub className="font-semibold text-base">clients</sub>
           </p>
         </ItemLayout>
 
@@ -39,50 +40,58 @@ const AboutDetails = () => {
           className={"col-span-full xs:col-span-6 lg:col-span-4 text-accent"}
         >
           <p className="font-semibold w-full text-left text-2xl sm:text-5xl">
-            4+{" "}
-            <sub className="font-semibold text-base">years of experience</sub>
+            3{" "} 
+            <sub className="font-semibold text-base">Companies of internship experiences</sub>
           </p>
         </ItemLayout>
+           
+        <ItemLayout className={"col-span-4 !p-0"}>
+            <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/top-langs/?username=aman7732&theme=transparent&title_color=FEFE5B&text_color=FEFE5B" alt="Aman Mishra" loading="lazy"/>
+           </ItemLayout>
 
-        <ItemLayout
-          className={"col-span-full sm:col-span-6 md:col-span-4 !p-0"}
-        >
-          <img
-            className="w-full h-auto"
-            src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api/top-langs?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
-            alt="CodeBucks"
-            loading="lazy"
-          />
-        </ItemLayout>
+           <ItemLayout className={"col-span-6 !p-0"}>
+            <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api?username=aman7732&theme=transparent&title_color=FEFE5B&text_color=FEFE5B" alt="Aman Mishra" loading="lazy"/>
+           </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
+        {/* <ItemLayout className={"col-span-full md:col-span-8 !p-0"}>
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STATS_URL}/api?username=codebucks27&theme=transparent&hide_border=true&title_color=FEFE5B&text_color=FFFFFF&icon_color=FEFE5B&text_bold=false`}
             alt="CodeBucks"
             loading="lazy"
           />
-        </ItemLayout>
-
+        </ItemLayout> */}
+ 
         <ItemLayout className={"col-span-full"}>
           <img
             className="w-full h-auto"
-            src={`https://skillicons.dev/icons?i=babel,bootstrap,css,docker,firebase,git,github,html,js,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,supabase,tailwind,threejs,vercel,vite,vscode,yarn, blockchain, solidity, `}
+            src={`https://skillicons.dev/icons?i=java,idea,powershell,solidity,materialui,gmail,express,bootstrap,css,docker,firebase,git,github,html,js,kubernetes,linux,mongodb,mysql,netlify,nextjs,nodejs,npm,postgres,react,redux,replit,sass,tailwind,threejs,vercel,vite,vscode,yarn, `}
             alt="Aman Mishra"
             loading="lazy"
           />
+        </ItemLayout> 
+
+
+        <ItemLayout className={"col-span-6 "}>
+        <a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com?user=aman7732&theme=radical&hide_border=true" alt="GitHub Streak" /></a>
         </ItemLayout>
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+
+        <ItemLayout className={"col-span-6 !p-0"}>
+            <img className="w-full h-auto" src="https://github-readme-stats.vercel.app/api/pin/?username=aman7732&repo=My-Portfolio02&theme=transparent&title_color=FEFE5B&text_color=FEFE5B" alt="Aman Mishra" loading="lazy"/>
+           </ItemLayout>
+
+
+        {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <img
             className="w-full h-auto"
             src={`${process.env.NEXT_PUBLIC_GITHUB_STREAK_STATS_URL}?user=codebucks27&theme=dark&hide_border=true&type=svg&background=EB545400&ring=FEFE5B&currStreakLabel=FEFE5B`}
             alt="Aman Mishra"
             loading="lazy"
           />
-        </ItemLayout>
+        </ItemLayout> */}
 
-        <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
+        {/* <ItemLayout className={"col-span-full md:col-span-6 !p-0"}>
           <Link
             href="https://github.com/codebucks27/Nextjs-contentlayer-blog"
             target="_blank"
@@ -95,7 +104,7 @@ const AboutDetails = () => {
               loading="lazy"
             />
           </Link>
-        </ItemLayout>
+        </ItemLayout> */}
       </div>
     </section>
   );
