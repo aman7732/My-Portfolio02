@@ -21,14 +21,14 @@ export const projectsData = [
     id: 1,
     name: "Brainwave",
     description: "Fronted Project",
-    // date: "2022-08-15",
+    date: "2023-07-02",
     demoLink: "https://brainwave-aman.vercel.app/",
   },
   {
     id: 2,
     name: "Madelief",
     description: "Fronted project",
-    date: "2023-07-02",
+    date: "2023-05-02",
     demoLink: "https://01madelief.vercel.app/",
   },
   {
@@ -45,13 +45,13 @@ export const projectsData = [
     date: "2023-08-30",
     demoLink: "https://modern-bank-app-aman.vercel.app/",
   },
-  // {
-  //   id: 5,
-  //   name: "RecipeFinder",
-  //   description: "Discover new recipes",
-  //   date: "2022-07-12",
-  //   demoLink: "https://recipefinder.example.com",
-  // },
+  {
+    id: 5,
+    name: "3D-Portfolio",
+    description: "Fronted based Project",
+    date: "2022-07-12",
+    demoLink: "https://amanmishra003.vercel.app/",
+  },
   // {
   //   id: 6,
   //   name: "JourneyLogger",
