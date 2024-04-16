@@ -26,10 +26,10 @@ export const projectsData = [
   },
   {
     id: 2,
-    name: "Madelief",
+    name: "Genres-Game",
     description: "Frontend project",
     date: "2023-05-02",
-    demoLink: "https://01madelief.vercel.app/",
+    demoLink: "https://genres-game.vercel.app/",
   },
   {
     id: 3,
@@ -49,7 +49,7 @@ export const projectsData = [
     id: 5,
     name: "3D-Portfolio",
     description: "Fronted based Project",
-    date: "2022-07-12",
+    date: "2023-07-12",
     demoLink: "https://amanmishra003.vercel.app/",
   },
   {
