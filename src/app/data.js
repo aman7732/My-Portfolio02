@@ -59,13 +59,13 @@ export const projectsData = [
     date: "2024-01-01",
     demoLink: "https://my-movie-ten.vercel.app/",
   },
-  // {
-  //   id: 7,
-  //   name: "StudyBuddy",
-  //   description: "Collaborative learning platform",
-  //   date: "2022-04-18",
-  //   demoLink: "https://studybuddy.example.com",
-  // },
+  {
+    id: 7,
+    name: "Rent-Up",
+    description: "Frontend React project",
+    date: "2024-02-18",
+    demoLink: "https://rent-up-aman.vercel.app/",
+  },
   // {
   //   id: 8,
   //   name: "TechTalk",

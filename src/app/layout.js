@@ -17,7 +17,7 @@ export const metadata = {
       "Aman Mishra",
   },
   description:
-    "A unique creative portfolio designed by CodeBucks with cutting-edge technologies like Next.js, Tailwind CSS, Three.js, and Framer Motion. Experience the art of modern web development firsthand. Checkout CodeBucks on youtube.",
+    "A unique creative portfolio designed by Aman Mishra with cutting-edge technologies like Next.js, Tailwind CSS, Three.js, and Framer Motion. Experience the art of modern web development firsthand. Checkout CodeBucks on youtube.",
 };
 
 export default function RootLayout({ children }) {
